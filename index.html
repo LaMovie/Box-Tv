@@ -317,6 +317,8 @@ fullscreenButton.addEventListener('click', function() {
    document.body.style.top = '-45vh';
    document.body.style.left = '-40vh'; 
    Back.style.display = 'block';
+   var elemento = document.querySelector('section div:first-child');
+elemento.style.border = "2px solid #000";  
 };
 
    Back.addEventListener('click', function(){
@@ -325,7 +327,9 @@ fullscreenButton.addEventListener('click', function() {
      Modal.style.cssText = '';
      Sect.style.cssText = '';
   document.body.style.cssText = '';
-  Modal2.style.background = '#000'; 
+  Modal2.style.background = '#000';
+  var elemento = document.querySelector('section div:first-child');
+elemento.style.border = "2px solid green";    
 });
 </script>
 
