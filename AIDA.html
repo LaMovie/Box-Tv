@@ -12,7 +12,7 @@ body {
 }
 #Video {
     border-radius: 20px;
-    width: 360px; height: 240px;
+    width: 100%; height: auto;
 }
 button {
     border-radius: 20px;
@@ -23,7 +23,7 @@ button {
 </head>
 <body>
              <h1>AIDA</h1>
-    <video id="Video" controls src="https://cdn4.lqsa.es/hls/3/stream.m3u8?cachebust=904b909f" type="video/mp4"></video><br/>
+    <video id="Video" autoplay controls src="https://cdn4.lqsa.es/hls/3/stream.m3u8?cachebust=904b909f" type="video/mp4"></video><br/>
     <button onclick="playVideo('https://cdn4.lqsa.es/hls/3/stream.m3u8?cachebust=904b909f')">🔗Enlace 1</button>
     <button onclick="playVideo('https://cdn4.lqsa.es/hls/3/stream.m3u8')">🔗Enlace 2</button>
 
